@@ -35,7 +35,7 @@ function App() {
       {/* Content Container */}
       <div className="text-center p-4 bg-white shadow rounded position-relative z-index-10 w-75 w-md-50">
         {/* Heading */}
-        <h1 className="display-3 mb-4">{isWished ? "Happy New Year!" : "Wishing You a Happy New Year!"}</h1>
+        <h1 className="display-3 mb-4">{isWished ? "Happy New Year papa!" : "Wishing You a Happy New Year!"}</h1>
         
         {/* Subheading */}
         <p className="lead mb-4">
