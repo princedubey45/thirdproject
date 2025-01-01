@@ -1,0 +1,38 @@
+/* App.css */
+
+/* Custom styles (optional) */
+.App {
+  background-color: #ffeb3b; /* Bright yellow background for the New Year theme */
+}
+
+.text-center {
+  color: #333; /* Dark text for readability */
+}
+
+.btn-danger {
+  background-color: #ff5733; /* Bright festive red button */
+}
+
+.btn-danger:hover {
+  background-color: #ff4c26; /* Slightly darker red on hover */
+}
+
+/* Optional animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.display-3 {
+  animation: fadeIn 1s ease-out;
+}
+
+.lead {
+  animation: fadeIn 1.5s ease-out;
+}
